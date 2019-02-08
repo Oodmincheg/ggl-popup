@@ -8,14 +8,46 @@
     <title>Google Popup</title>
   </head>
   <body>
-    <nav>
-      <ul>
-        <li>Gmail</li>
-        <li>Images</li>
-        <li>Menu</li>
-        <li>Bell</li>
-        <li>V</li>
+    <nav class="main-nav">
+      <ul class="nav-list">
+        <li class="nav-list-item">Gmail</li>
+        <li class="nav-list-item">Images</li>
+        <li class="nav-list-item">
+            <input type='checkbox' id="open-modal" >
+            <label for="open-modal" id="open-modal-label">Menu</label></li>
+        <li class="nav-list-item">Bell</li>
+        <li class="nav-list-item">V</li>
       </ul>
     </nav>
+    <div class="modal-container">
+      <div class="modal" id="modal-first">
+        <img class="icon" src="img/account.svg" alt="account icon" />
+        <img class="icon" src="img/gmail.svg" alt="gmail icon" />
+        <img class="icon" src="img/hangouts.svg" alt="hangouts icon" />
+        <img class="icon" src="img/news.svg" alt="news icon" />
+        <img class="icon" src="img/youtube.svg" alt="youtube icon" />
+        <img class="icon" src="img/browser.svg" alt="browser icon" />
+        <img class="icon" src="img/playstore.svg" alt="playstore icon" />
+        <img class="icon" src="img/translate.svg" alt="translate icon" />
+        <img class="icon" src="img/forms.svg" alt="forms icon" />
+        <img class="icon" src="img/admin.svg" alt="adming icon" />
+      </div>
+      <input type='checkbox' id="open-modal-second" >
+      <label for="open-modal-second" id="open-modal-second-label">More</label>
+      <div class="modal" id="modal-second">
+        <img class="icon" src="img/drive.svg" alt="adwords icon" />
+        <img class="icon" src="img/business.svg" alt="business icon" />
+        <img class="icon" src="img/calendar.svg" alt="calendar icon" />
+        <img class="icon" src="img/photos.svg" alt="photos icon" />
+        <img class="icon" src="img/playstore.svg" alt="adwords icon" />
+        <img class="icon" src="img/sheets.svg" alt="sheets icon" />
+        <img class="icon" src="img/slides.svg" alt="slides icon" />
+        <img class="icon" src="img/google-plus.svg" alt="translate icon" />
+        <img class="icon" src="img/vault.svg" alt="vault icon" />
+        <img class="icon" src="img/maps.svg" alt="" />
+      </div>
+    </input>
+      
+    </div>
   </body>
 </html>
